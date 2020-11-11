@@ -7,7 +7,7 @@ const xhr = new XMLHttpRequest();
 
 xhr.open(
   "GET",
-  "https://cors-anywhere.herokuapp.com/newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=c5b24cbaeb2e4e88aed3e8471bd94218",
+  "http://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=c5b24cbaeb2e4e88aed3e8471bd94218",
   true
 );
 
