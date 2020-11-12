@@ -6,7 +6,7 @@ const xhr = new XMLHttpRequest();
 
 xhr.open(
   "GET",
-  "http://newsapi.org/v2/top-headlines?country=in&apiKey=c5b24cbaeb2e4e88aed3e8471bd94218",
+  "https://newsapi.org/v2/top-headlines?country=in&apiKey=c5b24cbaeb2e4e88aed3e8471bd94218",
   true
 );
 
